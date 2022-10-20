@@ -36,10 +36,7 @@ void SumOddElem(int[] array)
     int sum = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if (i % 2 != 0)
-        {
-            sum += array[i];
-        }
+        if (i % 2 != 0) sum += array[i];  
     }
     Console.WriteLine($"Сумма элементов на нечётных позициях = {sum}");
 }
